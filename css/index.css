@@ -1,0 +1,12 @@
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Header */
+/* Intro */
+.intro {
+    background-color: #2a2a2a;
+}

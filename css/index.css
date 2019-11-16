@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color 0.2s linear;
 }
 .intro-link:hover {
-    background-color: #e6332a;
+    background-color: #595959;
 }
 /* Services */
 .services {
@@ -129,4 +129,47 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lato;
     font-size: 14px;
     color: #9a9a9a;
+}
+/* Portfolio */
+.section-suptitle {
+    margin: 55px 0 20px;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 30px;
+    color: #616161;
+}
+.section-title {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 20px;
+    color: #929292;
+}
+.portfolio-button {
+    display: inline-block;
+    margin: 55px 3px 0 0;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 12px;
+    background-color: #ff6760;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 19px;
+    border-radius: 5px;
+    transition: background-color 0.2s linear;
+}
+.portfolio-button:hover {
+    background-color: #595959;
+}
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px 0 70px;
+}
+.portfolio-img {
+    display: block;
+    margin-bottom: 10px;
 }

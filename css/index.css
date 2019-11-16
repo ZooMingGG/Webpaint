@@ -98,3 +98,35 @@ h1, h2, h3, h4, h5, h6 {
 .intro-link:hover {
     background-color: #e6332a;
 }
+/* Services */
+.services {
+    background-color: #f8f8f8;
+}
+.services-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-item {
+    margin-right: 30px;
+    padding: 90px 0;
+    flex: 1 1 0;
+}
+.services-item:last-child {
+    margin-right: 0;
+}
+.services-image {
+    height: 60px;
+}
+.services-title {
+    margin: 25px 0 17px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    color: #7a7a7a;
+}
+.services-text {
+    font-family: Lato;
+    font-size: 14px;
+    color: #9a9a9a;
+}

@@ -326,7 +326,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 770px) {
+/* Nav */
+    .nav {
+        display: none;
+    }
 
+/* Intro */
+    .intro-title {
+        font-size: 50px;
+    }
+
+    .intro-text {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -339,5 +351,10 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         padding: 30px 0;
         max-width: 300px;
+    }
+
+/* Intro */
+    .intro-text {
+        font-size: 24px;
     }
 }

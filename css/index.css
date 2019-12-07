@@ -310,6 +310,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Media */
-@media (max-width: 1140px) {
+@media (max-width: 990px) {
+/* Services */
+    .services-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
+    .services-item {
+        flex: none;
+        padding: 50px 0;
+        margin-right: 0;
+        width: 40%;
+    }
+}
+
+@media (max-width: 770px) {
+
+}
+
+@media (max-width: 575px) {
+/* Services */
+    .services-items {
+        justify-content: center;
+    }
+
+    .services-item {
+        width: 100%;
+        padding: 30px 0;
+        max-width: 300px;
+    }
 }

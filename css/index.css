@@ -69,6 +69,64 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff6760;
 }
 
+/* Toggle */
+/* Toggle */
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.toggle-btn,
+.toggle-btn:before,
+.toggle-btn:after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 3px;
+    margin: -1.5px 0 0 -20px;
+    background-color: #d9d9d9;
+    transition: background-color 0.2s linear, transform 0.2s linear;
+} 
+
+.toggle-btn:before {
+    content: "";
+    transform: translateY(-10px);
+}
+
+.toggle-btn:after {
+    content: "";
+    transform: translateY(10px);
+}
+
+.toggle:hover .toggle-btn {
+    background-color: #ff6760;
+}
+
+.toggle:hover .toggle-btn:before {
+    background-color: #ff6760;
+}
+
+.toggle:hover .toggle-btn:after {
+    background-color: #ff6760;
+}
+
+.toggle-active .toggle-btn {
+    height: 0;
+}
+
+.toggle-active .toggle-btn:before {
+    transform: rotate(45deg);
+}
+
+.toggle-active .toggle-btn:after {
+    transform: rotate(-45deg);
+}
+
 /* Intro */
 .intro {
     background-color: #2a2a2a;
@@ -339,6 +397,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav */
     .nav {
         display: none;
+    }
+
+/* Toggle */
+    .toggle {
+    display: block;
     }
 
 /* Intro */
